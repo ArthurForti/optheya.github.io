@@ -1,0 +1,32 @@
+@import "colors.scss";
+@import "reset.scss";
+
+
+.impact_call{
+    position: absolute;
+    width: 545px;
+    height: 340px;
+    left: 50%;
+    transform: translateX(25%);
+    top: 184px;
+    font-family: 'Actay Wide';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 123%;    
+    text-align: right;
+    letter-spacing: 0.75px;    
+    color: $WhiteColor;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+}
+
+.logo{
+    position: absolute;
+    top: 8%;
+    right: 16px;
+}
