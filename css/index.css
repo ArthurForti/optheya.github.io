@@ -52,33 +52,161 @@ table {
   border-spacing: 0;
 }
 
-.impact_call {
-  position: absolute;
-  width: 545px;
+@font-face {
+  font-family: Actay_Condensed_thin_italic;
+  src: url(/resources/fonts/actay_condensed_thin_italic.otf);
+}
+@font-face {
+  font-family: Actay_Regular;
+  src: url(/Users/bersoncrios/Documents/Repositories/AppsOptheya/lp_optheya/resources/fonts/actay_regular.otf);
+}
+@font-face {
+  font-family: Actay_Regular_Italic;
+  src: url(/resources/fonts/actay_regular_italic.otf);
+}
+@font-face {
+  font-family: Actay_Wide_Bold;
+  src: url(/Users/bersoncrios/Documents/Repositories/AppsOptheya/lp_optheya/resources/fonts/actay_wide_bold.otf);
+}
+@font-face {
+  font-family: Actay_Wide_Bold_Italic;
+  src: url(/resources/fonts/actay_wide_bold_italic.otf);
+}
+@font-face {
+  font-family: Actay_Condensed_thin;
+  src: url(/resources/fonts/actayc_condensed_thin.otf);
+}
+@font-face {
+  font-family: Kyuren_light;
+  src: url(/resources/fonts/kurye_light.otf);
+}
+@font-face {
+  font-family: Kyuren_light_italic;
+  src: url(/resources/fonts/kurye_light_italic.otf);
+}
+.main_banner {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: flex-end;
+  background-image: url("https://github.com/optheya/lp-optheya/blob/master/resources/images/view-ra.png?raw=true");
+  width: auto;
+  height: 747px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section_situation {
+  display: flex;
+  background-image: linear-gradient(30deg, #430084, #430084, rgb(227, 119, 226));
+  width: auto;
   height: 340px;
-  left: 50%;
-  transform: translateX(25%);
-  top: 184px;
-  font-family: "Actay Wide";
+  margin-top: 2%;
+}
+
+.section_curious {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: flex-start;
+  background-image: linear-gradient(30deg, #430084, #430084, rgb(227, 119, 226));
+  width: auto;
+  height: 603px;
+  margin-top: 2%;
+}
+
+.logo {
+  position: relative;
+  padding-top: 7%;
+  padding-left: 10%;
+  width: 264px;
+  height: 41px;
+}
+
+.situation_call {
+  position: relative;
+  font-family: Actay_Regular;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0.75px;
+  color: #FFFFFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding-top: 9.767%;
+  padding-bottom: 9.767%;
+  padding-left: 9.506%;
+  padding-right: 9.506%;
+}
+
+.curious_call {
+  position: relative;
+  font-family: Actay_Wide_Bold;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 64px;
+  letter-spacing: 0.75px;
+  color: #FFFFFF;
+  padding-top: 5.1%;
+  padding-left: 6.7%;
+}
+
+.impact_call {
+  position: relative;
+  font-family: Actay_Regular;
   font-style: normal;
   font-weight: 700;
   font-size: 52px;
-  line-height: 123%;
   text-align: right;
   letter-spacing: 0.75px;
   color: #FFFFFF;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding-top: 5%;
+  padding-right: 5%;
 }
 
-.banner {
-  width: 100%;
-  height: auto;
+@media screen and (min-width: 2560px) {
+  .logo {
+    position: relative;
+    padding-top: 7%;
+    padding-left: 6%;
+    width: 264px;
+    height: 41px;
+  }
 }
-
-.logo {
-  position: absolute;
-  top: 8%;
-  right: 16px;
+@media screen and (max-width: 1024px) {
+  .logo {
+    position: relative;
+    padding-top: 7%;
+    padding-left: 15%;
+    width: 264px;
+    height: 41px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .logo {
+    position: relative;
+    padding-top: 7%;
+    padding-left: 19.5%;
+    width: 264px;
+    height: 41px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .situation_call {
+    position: relative;
+    font-family: Actay_Regular;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.75px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-top: 9.767%;
+    padding-bottom: 9.767%;
+    padding-left: 9.506%;
+    padding-right: 9.506%;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
