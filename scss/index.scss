@@ -2,10 +2,14 @@
 @import "colors.scss";
 @import "fonts.scss";
 
-.main_banner {
-    display: flex;
-    flex-flow: column wrap;
-    align-content: flex-end;
+// Variable overrides first
+$enable-shadows: true;
+$prefix: "mo-";
+
+// Then import Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.presentation {
     background-image: url('https://github.com/optheya/lp-optheya/blob/master/resources/images/view-ra.png?raw=true');
     width: auto;
     height: 747px;
@@ -13,123 +17,62 @@
     background-size: cover;
 }
 
-.section_situation {
-    display: flex;
-    background-image: linear-gradient(30deg, $PrimaryPrincipalColor, $PrimaryPrincipalColor, rgb(227, 119, 226));
-    width: auto;
-    height: 340px;
-    margin-top: 2% ;
-}
-
-.section_curious {
-    display: flex;
-    flex-flow: column wrap;
-    align-content: flex-start;
-    background-image: linear-gradient(30deg, $PrimaryPrincipalColor, $PrimaryPrincipalColor, rgb(227, 119, 226));
-    width: auto;
-    height: 603px;
-    margin-top: 2% ;
-}
-
-.logo {
-    position: relative;
-    padding-top: 7%;
-    padding-left: 10%;
-    width: 264px;
-    height: 41px;
-}
-
-.situation_call {
-    position: relative;
-    font-family: Actay_Regular;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    text-align: center ;
-    letter-spacing: 0.75px;
-    color: $WhiteColor;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    padding-top: 9.767%;
-    padding-bottom: 9.767%;
-    padding-left: 9.506%;
-    padding-right: 9.506%;
-}
-
-.curious_call {
-    position: relative;
-    font-family: Actay_Wide_Bold;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 42px;
-    line-height: 64px;
-    letter-spacing: 0.75px;
-    color: $WhiteColor;
-    padding-top: 5.1%;
-    padding-left:  6.7%;
-}
-
-
-.impact_call {
-    position: relative;
-
+.prepared {
     font-family: Actay_Regular;
     font-style: normal;
     font-weight: 700;
     font-size: 52px;
-    text-align: right ;
     letter-spacing: 0.75px;
     color: $WhiteColor;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    padding-top: 5%;
-    padding-right: 5%;
+    padding-top: 17.4%;
+    padding-right: 7.55%;
 }
 
-//MEDIA QUERIES
-
-@media screen and (min-width: 2560px) {
-    .logo {
-        position: relative;
-        padding-top: 7%;
-        padding-left: 6%;
-        width: 264px;
-        height: 41px;
-    }
+.logo {
+    padding-right: 7.55%;
+    padding-top: 6.6%;
 }
 
-@media screen and (max-width: 1024px) {
-    .logo {
-        position: relative;
-        padding-top: 7%;
-        padding-left: 15%;
-        width: 264px;
-        height: 41px;
-    }
+.btn {
+    --mo-btn-border-width: 6px !important;
+    --mo-btn-border-radius: 40px;
 }
+.btn-primary {
+    --mo-btn-color: #fff;
+    --mo-btn-bg: #430084 !important;
+    --mo-btn-border-color: ;
+    --mo-btn-hover-color: #fff;
+    --mo-btn-hover-bg:#430084 !important;
+    --mo-btn-hover-border-color: #430084 !important;
+    --mo-btn-focus-shadow-rgb: 49, 132, 253;
+    --mo-btn-active-color: #fff;
+    --mo-btn-active-bg: #430084!important;
+    --mo-btn-active-border-color: #430084 !important;
+    --mo-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --mo-btn-disabled-color: #fff;
+    --mo-btn-disabled-bg: #430084 !important;
+    --mo-btn-disabled-border-color: #430084 !important;
+  }
 
-@media screen and (max-width: 768px) {
-    .logo {
-        position: relative;
-        padding-top: 7%;
-        padding-left: 19.5%;
-        width: 264px;
-        height: 41px;
-    }
+  .experimet-btn {
+    padding-right: 7.55%;
+  }
 
-}
-@media screen and (max-width: 425px) {
-    .situation_call {
-        position: relative;
-        font-family: Actay_Regular;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 20px;
-        text-align: center ;
-        letter-spacing: 0.75px;
-        color: $WhiteColor;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        padding-top: 9.767%;
-        padding-bottom: 9.767%;
-        padding-left: 9.506%;
-        padding-right: 9.506%;
-    }
-}
+  .space {
+    padding: 1%;
+  }
+
+  .history {
+    height: 21.25rem;
+    background-image: linear-gradient(30deg, $PrimaryPrincipalColor, $PrimaryPrincipalColor, rgb(227, 119, 226));
+  }
+
+  .arrive {
+    height: 37.688rem;
+    background-image: linear-gradient(30deg, $PrimaryPrincipalColor, $PrimaryPrincipalColor, rgb(227, 119, 226));
+  }
+
+  .why_use {
+    height: 30rem;
+  }
