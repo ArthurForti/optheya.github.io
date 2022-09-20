@@ -10943,17 +10943,72 @@ textarea.form-control-lg {
 }
 
 .history {
-  height: 21.25rem;
+  width: auto;
+  height: 12%;
   background-image: linear-gradient(30deg, #430084, #430084, rgb(227, 119, 226));
 }
 
 .arrive {
-  height: 37.688rem;
+  width: auto;
+  height: 20%;
   background-image: linear-gradient(30deg, #430084, #430084, rgb(227, 119, 226));
 }
 
 .why_use {
+  width: auto;
   height: 30rem;
+}
+
+.why-title {
+  font-family: Actay_Regular;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  letter-spacing: 0.75px;
+  color: #5F2EEA;
+}
+
+.the_bests {
+  width: auto;
+  height: 27rem;
+}
+
+.phone {
+  height: 42.375rem;
+  width: 49.1875rem;
+}
+
+.the_best-content {
+  font-family: Actay_Regular;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  letter-spacing: 0.75px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.to_resolve {
+  font-family: Actay_Regular;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 64px;
+  letter-spacing: 0.75px;
+  color: #FFFFFF;
+}
+
+.imagine {
+  font-family: "Actay Wide";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  text-align: justify;
+  letter-spacing: 0.75px;
+  color: #FFFFFF;
+  padding-top: 4.688rem;
+  padding-bottom: 4.688rem;
+  padding-left: 4.688rem;
+  padding-right: 4.688rem;
 }
 
 /*# sourceMappingURL=index.css.map */
