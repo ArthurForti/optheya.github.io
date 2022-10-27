@@ -1,0 +1,16 @@
+.explorer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    width: 50%;
+  }
+  .explorer__content {
+    padding-inline: 7%;
+    h2 {
+      font-weight: 700;
+      font-size: 42px;
+      color: $black-txt;
+    }
+  }
+}
