@@ -1,3 +1,3 @@
 function capturaLead() {
-    console.log("captura");
+    alert("Funcionalidade em desenvolvimento, aguarde")
 }
