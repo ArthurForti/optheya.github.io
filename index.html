@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -17,7 +17,7 @@
       href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
     />
     <link rel="stylesheet" href="css/main.min.css" />
-    <title>Oi</title>
+    <title>Optheya - Nós somos a realidade</title>
   </head>
   <body>
     <!-- main container -->
@@ -30,7 +30,7 @@
           </div>
 
           <h1>
-            Você está preparado(a) para a evolução da experiência gastronômica?
+            Você está preparado(a) para a revolução da experiência gastronômica?
           </h1>
           <button>Quero experimentar</button>
         </div>
@@ -127,30 +127,29 @@
         </h2>
       </div>
     </section>
-    <section class="registration-beta-tester">
+    <section class="registration-beta-tester" onload="desactive()"">
       <div class="registration-beta-tester__banner">
         <img src="img/banner-form.png" alt="" />
       </div>
 
-      <form class="registration-beta-tester__form" action="">
+      <div id="forms-lead" class="registration-beta-tester__form">
         <h1>
           Cadastre-se como<br />
           Beta Tester
         </h1>
 
         <label for="name">Nome</label>
-        <input type="text" name="name" id="name" placeholder="Seu nome" />
+        <input type="text" id="name" placeholder="Seu nome" />
 
         <label for="e-mail">E-mail</label>
         <input
           type="email"
-          name="email"
           id="email"
           placeholder="exemplo@mail.com"
         />
 
         <label for="tel">Telefone</label>
-        <input type="tel" name="tel" id="tel" placeholder="(00) 9 0000-0000" />
+        <input type="tel" id="tel" placeholder="(00) 9 0000-0000" />
 
         <div class="registration-beta-tester__content--partner">
           <label for="myCheck">Sou dono/sócio de restaurante</label>
@@ -158,8 +157,8 @@
         </div>
         <span class="partner-form hidden">
           <label for="">Nome do restaurante</label>
-          <input type="text" name="" id="">
-          <label for="">Faturamento</label>
+          <input type="text" id="">
+          <label for="">Faturamento Mensal</label>
           <div class="select">
             <select>
               <option value="">Prefiro não informar</option>
@@ -170,9 +169,11 @@
             </select>
           </div>
         </span>
-        <button class="enviar" type="submit">Enviar</button>
-      </form>
+        <button onclick="capturaLead()">Quero fazer parte</button>
+      </div>
     </section>
-    <script src="JS/partner-form.js"></script>
+    <script src="javascript/FileSaver.js"></script>
+    <script src="javascript/capture-lead.js"></script>
+    <script src="javascript/partner-form.js"></script>
   </body>
 </html>
