@@ -1,0 +1,651 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fefefe;
+  font-family: "Inter", sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+.container-main {
+  margin-bottom: -1vh;
+  position: relative;
+}
+.container-main .container-main__bg .container-main__content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  padding-block: 20px;
+  padding-right: 2%;
+}
+.container-main .container-main__bg .logo {
+  display: flex;
+  justify-content: flex-end;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 40px 40px 0;
+}
+.container-main .container-main__bg .logo img {
+  width: 315px;
+}
+.container-main .container-main__bg h1 {
+  margin-block: 8%;
+  text-align: end;
+  font-weight: 700;
+  font-size: 52px;
+  width: 71%;
+  color: #ffffff;
+  color: white;
+}
+.container-main .container-main__bg button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  padding: 20px 40px;
+  height: 64px;
+  color: #e4daff;
+  background: #5f2eea;
+  border-radius: 40px;
+  border: 4px solid #e4daff;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.example-description {
+  background-image: url("../img/purple-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-block: 60px;
+}
+.example-description .example-description__content {
+  margin: 0 auto;
+  width: 80%;
+}
+.example-description .example-description__content h2 {
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 24px;
+}
+.example-description .example-description__content strong {
+  font-weight: 700;
+  font-size: 26px;
+}
+.example-description .example-description__content span {
+  font-weight: 700;
+}
+
+.app-description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("../img/purple-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 2% 4%;
+}
+.app-description .app-description__content h2 {
+  font-weight: 700;
+  font-size: 42px;
+  color: #ffffff;
+  width: 75%;
+}
+.app-description .app-description__content button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+  text-transform: uppercase;
+  padding: 20px 40px;
+  height: 64px;
+  color: #5f2eea;
+  background: #e4daff;
+  border-radius: 40px;
+  border: 8px solid #5f2eea;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.usability-benefits {
+  display: flex;
+  flex-direction: column;
+}
+.usability-benefits .usability-benefits__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-block: 40px;
+}
+.usability-benefits .usability-benefits__title h1 {
+  color: #5f2eea;
+  font-weight: 700;
+  font-size: 48px;
+  text-align: center;
+  margin-inline: 20px;
+}
+.usability-benefits .usability-benefits__cards {
+  display: flex;
+  justify-content: center;
+}
+.usability-benefits .usability-benefits__cards .usability-benefits__cards--card {
+  width: 580px;
+  margin: 40px 40px;
+  border-radius: 32px;
+  box-shadow: 0px 35px 40px rgba(0, 0, 0, 0.06);
+}
+.usability-benefits .usability-benefits__cards .usability-benefits__cards--card img {
+  border-radius: 32px 32px 0 0;
+}
+.usability-benefits .usability-benefits__cards .usability-benefits__cards--card .usability-benefits__cards--card-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 35px 28px;
+}
+.usability-benefits .usability-benefits__cards .usability-benefits__cards--card .usability-benefits__cards--card-description h2 {
+  color: #14142b;
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+.usability-benefits .usability-benefits__cards .usability-benefits__cards--card .usability-benefits__cards--card-description p {
+  font-weight: 400;
+  font-size: 24px;
+}
+.usability-benefits button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-block: 40px;
+  margin-inline: auto;
+  text-transform: uppercase;
+  padding: 20px 40px;
+  height: 64px;
+  color: #ffffff;
+  background: #5F2EEA;
+  border-radius: 40px;
+  border: 8px solid #E4DAFF;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.explorer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.explorer img {
+  width: 50%;
+}
+.explorer .explorer__content {
+  padding-inline: 7%;
+}
+.explorer .explorer__content h2 {
+  font-weight: 700;
+  font-size: 42px;
+  color: #000000;
+}
+
+.registration-beta-tester {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.registration-beta-tester .registration-beta-tester__banner {
+  width: 50%;
+}
+.registration-beta-tester .registration-beta-tester__form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 40%;
+}
+.registration-beta-tester .registration-beta-tester__form h1 {
+  color: #5f2eea;
+  font-weight: 700;
+  font-size: 48px;
+  text-align: center;
+  margin: 0 20px 44px;
+}
+.registration-beta-tester .registration-beta-tester__form label {
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+  margin-block: 12px;
+}
+.registration-beta-tester .registration-beta-tester__form label:nth-child(3) {
+  margin: 0;
+}
+.registration-beta-tester .registration-beta-tester__form input[type=text],
+.registration-beta-tester .registration-beta-tester__form input[type=email],
+.registration-beta-tester .registration-beta-tester__form input[type=tel] {
+  background: #eff0f7;
+  border-radius: 16px;
+  border: none;
+  padding: 18px 24px;
+  font-size: 18px;
+}
+.registration-beta-tester .registration-beta-tester__form input[type=text]::-moz-placeholder, .registration-beta-tester .registration-beta-tester__form input[type=email]::-moz-placeholder, .registration-beta-tester .registration-beta-tester__form input[type=tel]::-moz-placeholder {
+  font-size: 16px;
+}
+.registration-beta-tester .registration-beta-tester__form input[type=text]:-ms-input-placeholder, .registration-beta-tester .registration-beta-tester__form input[type=email]:-ms-input-placeholder, .registration-beta-tester .registration-beta-tester__form input[type=tel]:-ms-input-placeholder {
+  font-size: 16px;
+}
+.registration-beta-tester .registration-beta-tester__form input[type=text]::placeholder,
+.registration-beta-tester .registration-beta-tester__form input[type=email]::placeholder,
+.registration-beta-tester .registration-beta-tester__form input[type=tel]::placeholder {
+  font-size: 16px;
+}
+.registration-beta-tester .registration-beta-tester__form button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-block: 40px;
+  margin-inline: auto;
+  text-transform: uppercase;
+  padding: 20px 40px;
+  width: 70%;
+  height: 64px;
+  color: #ffffff;
+  background: #5f2eea;
+  border-radius: 40px;
+  border: 8px solid #e4daff;
+  font-weight: 700;
+  font-size: 22px;
+}
+.registration-beta-tester .partner-form {
+  display: flex;
+  flex-direction: column;
+}
+.registration-beta-tester .partner-form label:nth-child(1),
+.registration-beta-tester .partner-form label:nth-child(3) {
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+  margin-block: 12px;
+}
+.registration-beta-tester .partner-form input,
+.registration-beta-tester .partner-form .select {
+  background: #eff0f7;
+  border-radius: 16px;
+  border: none;
+  padding: 18px 24px;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.registration-beta-tester .partner-form input::-moz-placeholder, .registration-beta-tester .partner-form .select::-moz-placeholder {
+  font-size: 16px;
+}
+.registration-beta-tester .partner-form input:-ms-input-placeholder, .registration-beta-tester .partner-form .select:-ms-input-placeholder {
+  font-size: 16px;
+}
+.registration-beta-tester .partner-form input::placeholder,
+.registration-beta-tester .partner-form .select::placeholder {
+  font-size: 16px;
+}
+.registration-beta-tester .partner-form select {
+  width: 100%;
+  border: none;
+  background: #eff0f7;
+  width: 100%;
+  border: none;
+  background: #eff0f7;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.registration-beta-tester__content--partner {
+  margin-block: 24px;
+}
+.registration-beta-tester__content--partner label {
+  font-weight: 400;
+  font-size: 16px;
+}
+.registration-beta-tester__content--partner input[type=checkbox],
+.registration-beta-tester__content--partner input[type=radio] {
+  --active: #610bef;
+  --active-inner: #fff;
+  --focus: 2px rgba(39, 94, 254, 0.3);
+  --border: #610bef;
+  --border-hover: #610bef;
+  --background: #fff;
+  --disabled: #f6f8ff;
+  --disabled-inner: #e1e6f9;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  height: 21px;
+  outline: none;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  margin: 0;
+  cursor: pointer;
+  border: 1px solid var(--bc, var(--border));
+  background: var(--b, var(--background));
+  transition: background 0.3s, border-color 0.3s, box-shadow 0.2s;
+}
+.registration-beta-tester__content--partner input[type=checkbox]:after,
+.registration-beta-tester__content--partner input[type=radio]:after {
+  content: "";
+  display: block;
+  left: 0;
+  top: 0;
+  position: absolute;
+  transition: transform var(--d-t, 0.3s) var(--d-t-e, ease), opacity var(--d-o, 0.2s);
+}
+.registration-beta-tester__content--partner input[type=checkbox]:checked,
+.registration-beta-tester__content--partner input[type=radio]:checked {
+  --b: var(--active);
+  --bc: var(--active);
+  --d-o: 0.3s;
+  --d-t: 0.6s;
+  --d-t-e: cubic-bezier(0.2, 0.85, 0.32, 1.2);
+}
+.registration-beta-tester__content--partner input[type=checkbox]:disabled,
+.registration-beta-tester__content--partner input[type=radio]:disabled {
+  --b: var(--disabled);
+  cursor: not-allowed;
+  opacity: 0.9;
+}
+.registration-beta-tester__content--partner input[type=checkbox]:disabled:checked,
+.registration-beta-tester__content--partner input[type=radio]:disabled:checked {
+  --b: var(--disabled-inner);
+  --bc: var(--border);
+}
+.registration-beta-tester__content--partner input[type=checkbox]:disabled + label,
+.registration-beta-tester__content--partner input[type=radio]:disabled + label {
+  cursor: not-allowed;
+}
+.registration-beta-tester__content--partner input[type=checkbox]:hover:not(:checked):not(:disabled),
+.registration-beta-tester__content--partner input[type=radio]:hover:not(:checked):not(:disabled) {
+  --bc: var(--border-hover);
+}
+.registration-beta-tester__content--partner input[type=checkbox]:focus,
+.registration-beta-tester__content--partner input[type=radio]:focus {
+  box-shadow: 0 0 0 var(--focus);
+}
+.registration-beta-tester__content--partner input[type=checkbox]:not(.switch),
+.registration-beta-tester__content--partner input[type=radio]:not(.switch) {
+  width: 21px;
+}
+.registration-beta-tester__content--partner input[type=checkbox]:not(.switch):after,
+.registration-beta-tester__content--partner input[type=radio]:not(.switch):after {
+  opacity: var(--o, 0);
+}
+.registration-beta-tester__content--partner input[type=checkbox]:not(.switch):checked,
+.registration-beta-tester__content--partner input[type=radio]:not(.switch):checked {
+  --o: 1;
+}
+.registration-beta-tester__content--partner input[type=checkbox] + label,
+.registration-beta-tester__content--partner input[type=radio] + label {
+  font-size: 14px;
+  line-height: 21px;
+  display: inline-block;
+  vertical-align: top;
+  cursor: pointer;
+  margin-left: 4px;
+}
+.registration-beta-tester__content--partner input[type=checkbox]:not(.switch) {
+  border-radius: 7px;
+}
+.registration-beta-tester__content--partner input[type=checkbox]:not(.switch):after {
+  width: 5px;
+  height: 9px;
+  border: 2px solid var(--active-inner);
+  border-top: 0;
+  border-left: 0;
+  left: 7px;
+  top: 4px;
+  transform: rotate(var(--r, 20deg));
+}
+.registration-beta-tester__content--partner input[type=checkbox]:not(.switch):checked {
+  --r: 43deg;
+}
+.registration-beta-tester__content--partner input[type=checkbox].switch {
+  width: 38px;
+  border-radius: 11px;
+}
+.registration-beta-tester__content--partner input[type=checkbox].switch:after {
+  left: 2px;
+  top: 2px;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  background: var(--ab, var(--border));
+  transform: translateX(var(--x, 0));
+}
+.registration-beta-tester__content--partner input[type=checkbox].switch:checked {
+  --ab: var(--active-inner);
+  --x: 17px;
+}
+.registration-beta-tester__content--partner input[type=checkbox].switch:disabled:not(:checked):after {
+  opacity: 0.6;
+}
+.registration-beta-tester__content--partner input[type=radio] {
+  border-radius: 50%;
+}
+.registration-beta-tester__content--partner input[type=radio]:after {
+  width: 19px;
+  height: 19px;
+  border-radius: 50%;
+  background: var(--active-inner);
+  opacity: 0;
+  transform: scale(var(--s, 0.7));
+}
+.registration-beta-tester__content--partner input[type=radio]:checked {
+  --s: 0.5;
+}
+
+@media (max-width: 1440px) {
+  .example-description .example-description__content h2 {
+    font-size: 22px;
+  }
+  .app-description img {
+    width: 65%;
+  }
+  .app-description .app-description__content h2 {
+    font-size: 32px;
+    width: 95%;
+  }
+  .app-description .app-description__content button {
+    margin-top: 85px;
+    font-size: 22px;
+  }
+  .usability-benefits .usability-benefits__cards .usability-benefits__cards--card .usability-benefits__cards--card-description h2 {
+    font-size: 32px;
+  }
+  .usability-benefits .usability-benefits__cards .usability-benefits__cards--card .usability-benefits__cards--card-description p {
+    font-size: 20px;
+  }
+  .usability-benefits button {
+    font-size: 20px;
+  }
+  .explorer .explorer__content h2 {
+    font-size: 35px;
+  }
+}
+@media (max-width: 1024px) {
+  .container-main .container-main__bg .container-main__content .logo img {
+    width: 200px;
+  }
+  .container-main .container-main__bg .container-main__content h1 {
+    font-size: 28px;
+    width: 57%;
+  }
+  .container-main .container-main__bg .container-main__content button {
+    font-size: 18px;
+    height: unset;
+    padding: 8px 28px;
+  }
+  .app-description .app-description__content h2 {
+    font-size: 23px;
+    width: 100%;
+  }
+  .app-description .app-description__content button {
+    font-size: 18px;
+    height: unset;
+    padding: 8px 28px;
+  }
+  .app-description img {
+    width: 45%;
+  }
+  .usability-benefits .usability-benefits__title h1 {
+    font-size: 42px;
+  }
+  .usability-benefits .usability-benefits__cards .usability-benefits__cards--card .usability-benefits__cards--card-description h2 {
+    font-size: 28px;
+  }
+  .usability-benefits .usability-benefits__cards .usability-benefits__cards--card .usability-benefits__cards--card-description p {
+    font-size: 18px;
+  }
+  .explorer .explorer__content {
+    padding-inline: 2%;
+  }
+}
+@media (max-width: 768px) {
+  .container-main .container-main__bg .logo {
+    margin: 0px 40px 0;
+  }
+  .example-description {
+    padding-block: 35px;
+  }
+  .example-description .example-description__content {
+    width: 90%;
+  }
+  .example-description .example-description__content h2 {
+    font-size: 18px;
+  }
+  .example-description .example-description__content strong {
+    font-size: 22px;
+  }
+  .app-description .app-description__content button {
+    border: 4px;
+  }
+  .usability-benefits .usability-benefits__cards {
+    flex-direction: column;
+    align-items: center;
+  }
+  .usability-benefits .usability-benefits__cards .usability-benefits__cards--card {
+    width: 90%;
+    margin: unset;
+    margin: 20px auto;
+  }
+  .usability-benefits button {
+    font-size: 18px;
+    border: 4px;
+    padding: 8px 28px;
+    height: unset;
+    margin-block: 20px;
+  }
+  .explorer {
+    flex-direction: column-reverse;
+  }
+  .explorer img {
+    width: 100%;
+  }
+  .explorer .explorer__content h2 {
+    font-size: 42px;
+    text-align: center;
+  }
+  .registration-beta-tester .registration-beta-tester__form {
+    width: 80%;
+  }
+  .registration-beta-tester .registration-beta-tester__banner {
+    display: none;
+  }
+}
+@media (max-width: 650px) {
+  .container-main .container-main__bg .container-main__content {
+    justify-content: flex-start;
+  }
+  .container-main .container-main__bg .container-main__content .logo {
+    width: 100%;
+    justify-content: flex-start;
+    margin: 0;
+  }
+  .container-main .container-main__bg .container-main__content .logo img {
+    margin-left: 20px;
+    width: 110px;
+  }
+  .container-main .container-main__bg .container-main__content h1 {
+    font-size: 22px;
+    margin-top: 30px;
+    width: 70%;
+  }
+  .container-main .container-main__bg .container-main__content button {
+    border: none;
+    font-size: 16px;
+  }
+  .app-description {
+    flex-direction: column-reverse;
+  }
+  .app-description .app-description__content h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .app-description .app-description__content button {
+    border: none;
+    font-size: 16px;
+    margin: 35px auto;
+  }
+  .app-description img {
+    width: 65%;
+    margin: 20px 0 35px;
+  }
+  .usability-benefits .usability-benefits__title h1 {
+    font-size: 34px;
+  }
+  .usability-benefits button {
+    border: none;
+    padding: 8px 28px;
+    height: unset;
+    font-size: 16px;
+  }
+  .explorer .explorer__content h2 {
+    font-size: 26px;
+    margin-inline: 12px;
+  }
+  .registration-beta-tester .registration-beta-tester__form h1 {
+    font-size: 34px;
+    margin: 20px 0 20px;
+  }
+  .registration-beta-tester .registration-beta-tester__form .registration-beta-tester__content--partner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 460px) {
+  .container-main .container-main__bg .container-main__content h1 {
+    font-size: 22px;
+    margin-block: 5%;
+    width: 86%;
+  }
+  .container-main .container-main__bg .container-main__content button {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+  .app-description img {
+    width: 100%;
+  }
+}/*# sourceMappingURL=main.min.css.map */

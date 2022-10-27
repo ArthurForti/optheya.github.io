@@ -1,0 +1,64 @@
+.usability-benefits {
+  display: flex;
+  flex-direction: column;
+  .usability-benefits__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-block: 40px;
+    h1 {
+      color: #5f2eea;
+      font-weight: 700;
+      font-size: 48px;
+      text-align: center;
+      margin-inline: 20px;
+    }
+  }
+  .usability-benefits__cards {
+    display: flex;
+    justify-content: center;
+    .usability-benefits__cards--card {
+      //   width: 60%;
+      width: 580px;
+      margin: 40px 40px;
+      border-radius: 32px;
+      box-shadow: 0px 35px 40px rgba(0, 0, 0, 0.06);
+      img {
+        border-radius: 32px 32px 0 0;
+      }
+      .usability-benefits__cards--card-description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 35px 28px;
+        h2 {
+          color: #14142b;
+          font-weight: 700;
+          font-size: 36px;
+          margin-bottom: 30px;
+        }
+        p {
+          font-weight: 400;
+          font-size: 24px;
+        }
+      }
+    }
+  }
+  button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-block: 40px;
+    margin-inline: auto;
+    text-transform: uppercase;
+    padding: 20px 40px;
+    height: 64px;
+    color: $white-txt;
+    background: #5F2EEA;
+    border-radius: 40px;
+    border: 8px solid #E4DAFF;
+    font-weight: 700;
+    font-size: 22px;
+  }
+}

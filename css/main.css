@@ -1,0 +1,531 @@
+img {
+  width: 100%;
+}
+
+body {
+  background-color: black;
+}
+
+.container01__box {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: black;
+  padding-block: 40px;
+}
+.container01__box h1 {
+  color: white;
+  font-size: 48px;
+  font-weight: bold;
+  font-family: "myriad-pro", sans-serif;
+  font-weight: 300;
+}
+.container01__box img {
+  width: 15%;
+}
+
+.container02 {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.container02 .container02__txt {
+  position: absolute;
+  margin-right: 12%;
+}
+.container02 .container02__txt h1 {
+  font-size: 62px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+.container02 .container02__txt p {
+  font-size: 18px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.container02__row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  padding-block: 40px;
+}
+.container02__row img {
+  width: 15%;
+}
+
+.container03 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.container03 .container03__txt {
+  position: absolute;
+  text-align: center;
+}
+.container03 .container03__txt h1 {
+  font-size: 62px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  line-height: 1;
+}
+.container03 .container03__txt p {
+  font-size: 18px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  padding: 15px 40px;
+}
+
+.container04 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.container04 .container04__txt {
+  position: absolute;
+  text-align: center;
+}
+.container04 .container04__txt h1 {
+  font-size: 62px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  padding-block: 20px;
+}
+.container04 .container04__txt p {
+  font-size: 18px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  padding-inline: 40px;
+}
+
+.container05 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.container05 .container05__txt {
+  position: absolute;
+  text-align: center;
+}
+.container05 .container05__txt h1 {
+  font-size: 62px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  padding-block: 20px;
+}
+.container05 .container05__txt p {
+  font-size: 18px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  padding-inline: 40px;
+}
+
+.container06 {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.container06 .container06__txt {
+  position: absolute;
+  margin-right: 5%;
+}
+.container06 .container06__txt h1 {
+  font-size: 62px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+.container06 .container06__txt p {
+  font-size: 18px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.container07 {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.container07 .container07__txt {
+  position: absolute;
+  margin-left: 5%;
+}
+.container07 .container07__txt h1 {
+  font-size: 62px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+.container07 .container07__txt p {
+  font-size: 18px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.container08 {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.container08 .container08__txt {
+  position: absolute;
+  margin-left: 5%;
+}
+.container08 .container08__txt #vidaa {
+  width: 90%;
+  padding-bottom: 20px;
+}
+.container08 .container08__txt h1 {
+  font-size: 62px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+.container08 .container08__txt p {
+  font-size: 18px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.container09 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.container09 .container09__txt {
+  position: absolute;
+  text-align: center;
+}
+.container09 .container09__txt h1 {
+  font-size: 62px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  padding-block: 20px;
+}
+
+.container10 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: blue;
+}
+.container10 .container10__txt h1 {
+  font-size: 62px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+.container10 .container10__txt p {
+  font-size: 18px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+@media (max-width: 1024px) {
+  .container01 .container01__box h1 {
+    font-size: 34px;
+  }
+  .container02 .container02__txt {
+    margin-right: 80px;
+  }
+  .container02 .container02__txt h1 {
+    font-size: 38px;
+  }
+  .container02 .container02__txt p {
+    font-size: 18px;
+  }
+  .container03 .container03__txt h1 {
+    font-size: 38px;
+  }
+  .container03 .container03__txt p {
+    font-size: 18px;
+  }
+  .container04 .container04__txt h1 {
+    font-size: 38px;
+  }
+  .container04 .container04__txt p {
+    font-size: 18px;
+  }
+  .container05 .container05__txt h1 {
+    font-size: 38px;
+  }
+  .container05 .container05__txt p {
+    font-size: 18px;
+  }
+  .container06 .container06__txt {
+    margin-right: 2%;
+  }
+  .container06 .container06__txt h1 {
+    font-size: 38px;
+  }
+  .container06 .container06__txt p {
+    font-size: 18px;
+  }
+  .container07 .container07__txt {
+    margin-left: 2%;
+  }
+  .container07 .container07__txt h1 {
+    font-size: 38px;
+  }
+  .container07 .container07__txt p {
+    font-size: 18px;
+  }
+  .container08 .container08__txt {
+    margin-left: 2%;
+  }
+  .container08 .container08__txt h1 {
+    font-size: 38px;
+  }
+  .container08 .container08__txt p {
+    font-size: 18px;
+  }
+  .container09 .container09__txt h1 {
+    font-size: 38px;
+  }
+}
+@media (max-width: 768px) {
+  .container02 {
+    display: block;
+  }
+  .container02 .container02__txt {
+    position: static;
+    margin: 0;
+    padding-block: 25px;
+    padding-inline: 5%;
+  }
+  .container02 .container02__txt h1 {
+    text-align: center;
+  }
+  .container02 .container02__txt p {
+    text-align: center;
+  }
+  .container03 {
+    display: block;
+  }
+  .container03 .container03__txt {
+    position: static;
+    margin: 0;
+    padding-inline: 5%;
+  }
+  .container03 .container03__txt h1 {
+    text-align: center;
+  }
+  .container03 .container03__txt p {
+    text-align: center;
+  }
+  .container04 {
+    display: block;
+  }
+  .container04 .container04__txt {
+    position: static;
+    margin: 0;
+    padding-block: 25px;
+    padding-inline: 5%;
+  }
+  .container04 .container04__txt h1 {
+    text-align: center;
+  }
+  .container04 .container04__txt p {
+    text-align: center;
+  }
+  .container05 {
+    display: block;
+  }
+  .container05 .container05__txt {
+    position: static;
+    margin: 0;
+    padding-block: 25px;
+    padding-inline: 5%;
+  }
+  .container05 .container05__txt h1 {
+    text-align: center;
+  }
+  .container05 .container05__txt p {
+    text-align: center;
+  }
+  .container06 {
+    display: block;
+  }
+  .container06 .container06__txt {
+    position: static;
+    margin: 0;
+    padding-block: 25px;
+    padding-inline: 5%;
+  }
+  .container06 .container06__txt h1 {
+    text-align: center;
+  }
+  .container06 .container06__txt p {
+    text-align: center;
+  }
+  .container07 {
+    display: block;
+  }
+  .container07 .container07__txt {
+    position: static;
+    margin: 0;
+    padding-block: 25px;
+    padding-inline: 5%;
+  }
+  .container07 .container07__txt h1 {
+    text-align: center;
+  }
+  .container07 .container07__txt p {
+    text-align: center;
+  }
+  .container08 {
+    display: block;
+  }
+  .container08 .container08__txt {
+    position: static;
+    margin: 0;
+    padding-block: 25px;
+    padding-inline: 5%;
+    text-align: center;
+  }
+  .container08 .container08__txt #vidaa {
+    width: 50%;
+  }
+  .container09 {
+    display: block;
+  }
+  .container09 .container09__txt {
+    position: static;
+    margin: 0;
+    padding-inline: 5%;
+  }
+  .container09 .container09__txt h1 {
+    text-align: center;
+  }
+}
+@media (max-width: 650px) {
+  .container01 .container01__box h1 {
+    font-size: 24px;
+  }
+  .container02 .container02__txt h1 {
+    font-size: 32px;
+  }
+  .container02 .container02__txt p {
+    font-size: 16px;
+    padding-inline: unset;
+  }
+  .container03 .container03__txt h1 {
+    font-size: 32px;
+  }
+  .container03 .container03__txt p {
+    font-size: 16px;
+    padding-inline: unset;
+  }
+  .container04 .container04__txt h1 {
+    font-size: 32px;
+  }
+  .container04 .container04__txt p {
+    font-size: 16px;
+    padding-inline: unset;
+  }
+  .container05 .container05__txt h1 {
+    font-size: 32px;
+  }
+  .container05 .container05__txt p {
+    font-size: 16px;
+    padding-inline: unset;
+  }
+  .container06 .container06__txt h1 {
+    font-size: 32px;
+  }
+  .container06 .container06__txt p {
+    font-size: 16px;
+    padding-inline: unset;
+  }
+  .container07 .container07__txt h1 {
+    font-size: 32px;
+  }
+  .container07 .container07__txt p {
+    font-size: 16px;
+    padding-inline: unset;
+  }
+  .container08 .container08__txt h1 {
+    font-size: 32px;
+  }
+  .container08 .container08__txt p {
+    font-size: 16px;
+    padding-inline: unset;
+  }
+  .container9 .container09__txt h1 {
+    font-size: 32px;
+  }
+}
+@media (max-width: 350px) {
+  .container01 .container01__box h1 {
+    font-size: 16px;
+  }
+  .container02 .container02__txt h1 {
+    font-size: 28px;
+  }
+  .container02 .container02__txt p {
+    font-size: 16px;
+    padding-inline: unset;
+  }
+  .container03 .container03__txt h1 {
+    font-size: 28px;
+  }
+  .container03 .container03__txt p {
+    font-size: 16px;
+    padding-inline: unset;
+  }
+  .container04 .container04__txt h1 {
+    font-size: 28px;
+  }
+  .container04 .container04__txt p {
+    font-size: 16px;
+  }
+  .container05 .container05__txt h1 {
+    font-size: 28px;
+  }
+  .container05 .container05__txt p {
+    font-size: 16px;
+  }
+  .container06 .container06__txt h1 {
+    font-size: 28px;
+  }
+  .container06 .container06__txt p {
+    font-size: 16px;
+    padding-inline: unset;
+  }
+  .container07 .container07__txt h1 {
+    font-size: 28px;
+  }
+  .container07 .container07__txt p {
+    font-size: 16px;
+    padding-inline: unset;
+  }
+  .container08 .container08__txt h1 {
+    font-size: 28px;
+  }
+  .container08 .container08__txt p {
+    font-size: 16px;
+    padding-inline: unset;
+  }
+  .container09 .container09__txt h1 {
+    font-size: 28px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

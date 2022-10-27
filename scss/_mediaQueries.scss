@@ -1,0 +1,290 @@
+//Desktop middle
+@media (max-width: $desktopMiddle) {
+  .example-description {
+    .example-description__content {
+      h2 {
+        font-size: 22px;
+      }
+    }
+  }
+  .app-description {
+    img {
+      width: 65%;
+    }
+  }
+  .app-description {
+    .app-description__content {
+      h2 {
+        font-size: 32px;
+        width: 95%;
+      }
+      button {
+        margin-top: 85px;
+        font-size: 22px;
+      }
+    }
+  }
+  .usability-benefits {
+    .usability-benefits__cards {
+      .usability-benefits__cards--card {
+        .usability-benefits__cards--card-description {
+          h2 {
+            font-size: 32px;
+          }
+          p {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+    button {
+      font-size: 20px;
+    }
+  }
+  .explorer {
+    .explorer__content {
+      h2 {
+        font-size: 35px;
+      }
+    }
+  }
+}
+
+//Desktop default
+@media (max-width: $desktopDefault) {
+  .container-main {
+    .container-main__bg {
+      .container-main__content {
+        .logo {
+          img {
+            width: 200px;
+          }
+        }
+        h1 {
+          font-size: 28px;
+          width: 57%;
+        }
+        button {
+          font-size: 18px;
+          height: unset;
+          padding: 8px 28px;
+        }
+      }
+    }
+  }
+  .app-description {
+    .app-description__content {
+      h2 {
+        font-size: 23px;
+        width: 100%;
+      }
+      button {
+        font-size: 18px;
+        height: unset;
+        padding: 8px 28px;
+      }
+    }
+    img {
+      width: 45%;
+    }
+  }
+  .usability-benefits {
+    .usability-benefits__title {
+      h1 {
+        font-size: 42px;
+      }
+    }
+    .usability-benefits__cards {
+      .usability-benefits__cards--card {
+        .usability-benefits__cards--card-description {
+          h2 {
+            font-size: 28px;
+          }
+          p {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+  .explorer {
+    .explorer__content {
+      padding-inline: 2%;
+    }
+  }
+}
+
+// Tablet
+@media (max-width: $tabletDefault) {
+  .container-main {
+    .container-main__bg {
+      .logo {
+        margin: 0px 40px 0;
+      }
+    }
+  }
+  .example-description {
+    padding-block: 35px;
+    .example-description__content {
+      width: 90%;
+      h2 {
+        font-size: 18px;
+      }
+      strong {
+        font-size: 22px;
+      }
+    }
+  }
+  .app-description {
+    .app-description__content {
+      button {
+        border: 4px;
+      }
+    }
+  }
+  .usability-benefits {
+    .usability-benefits__cards {
+      flex-direction: column;
+      align-items: center;
+
+      .usability-benefits__cards--card {
+        width: 90%;
+        margin: unset;
+        margin: 20px auto;
+      }
+    }
+    button {
+      font-size: 18px;
+      border: 4px;
+      padding: 8px 28px;
+      height: unset;
+      margin-block: 20px;
+    }
+  }
+  .explorer {
+    flex-direction: column-reverse;
+    img {
+      width: 100%;
+    }
+    .explorer__content {
+      h2 {
+        font-size: 42px;
+        text-align: center;
+      }
+    }
+  }
+  .registration-beta-tester {
+    .registration-beta-tester__form {
+      width: 80%;
+    }
+    .registration-beta-tester__banner {
+      display: none;
+    }
+  }
+}
+
+
+// Phone middle
+@media (max-width: $phoneFull) {
+  .container-main {
+    .container-main__bg {
+      .container-main__content {
+        justify-content: flex-start;
+        .logo {
+          width: 100%;
+          justify-content: flex-start;
+          margin: 0;
+          img {
+            margin-left: 20px;
+            width: 110px;
+          }
+        }
+        h1 {
+          font-size: 22px;
+          margin-top: 30px;
+          width: 70%;
+        }
+        button {
+          border: none;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  .app-description {
+    flex-direction: column-reverse;
+    .app-description__content {
+      h2 {
+        font-size: 20px;
+        text-align: center;
+      }
+      button {
+        border: none;
+        font-size: 16px;
+        margin: 35px auto;
+      }
+    }
+    img {
+      width: 65%;
+      margin: 20px 0 35px;
+    }
+  }
+  .usability-benefits {
+    .usability-benefits__title {
+      h1 {
+        font-size: 34px;
+      }
+    }
+    button {
+      border: none;
+      padding: 8px 28px;
+      height: unset;
+      font-size: 16px;
+    }
+  }
+  .explorer {
+    .explorer__content {
+      h2 {
+        font-size: 26px;
+        margin-inline: 12px;
+      }
+    }
+  }
+  .registration-beta-tester {
+    .registration-beta-tester__form {
+      h1 {
+        font-size: 34px;
+        margin: 20px 0 20px;
+      }
+      .registration-beta-tester__content--partner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  }
+}
+
+// phone small
+@media (max-width: $phoneDefault) {
+  .container-main {
+    .container-main__bg {
+      .container-main__content {
+        h1 {
+          font-size: 22px;
+          margin-block: 5%;
+          width: 86%;
+        }
+        button {
+          padding: 8px 16px;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  .app-description {
+    img {
+      width: 100%;
+    }
+  }
+}

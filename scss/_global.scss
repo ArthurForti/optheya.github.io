@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $bg-color;
+  font-family: 'Inter', sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
